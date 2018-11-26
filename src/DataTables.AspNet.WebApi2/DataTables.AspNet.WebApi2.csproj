@@ -12,11 +12,11 @@
     <PackageId>DataTables.AspNet.WebApi2</PackageId>
     <PackageTags>DataTables;DataTables.Mvc;DataTables.WebApi2;WebApi;WebApi2</PackageTags>
     <PackageReleaseNotes>Updated dependencies and framework.</PackageReleaseNotes>
-    <PackageProjectUrl>https://github.com/ALMMa/datatables.aspnet</PackageProjectUrl>
+    <PackageProjectUrl>http://github.com/danielvreyza/datatables.aspnet/</PackageProjectUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/ALMMa/datatables.aspnet/master/LICENSE</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/ALMMa/datatables.aspnet</RepositoryUrl>
+    <RepositoryUrl>http://github.com/danielvreyza/datatables.aspnet/</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
