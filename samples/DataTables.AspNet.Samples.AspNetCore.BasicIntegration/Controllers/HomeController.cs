@@ -26,6 +26,7 @@ THE SOFTWARE.
 using System;
 using System.Linq;
 using DataTables.AspNet.AspNetCore;
+using DataTables.AspNet.Core;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DataTables.AspNet.Samples.AspNetCore.BasicIntegration.Controllers
@@ -55,7 +56,7 @@ namespace DataTables.AspNet.Samples.AspNetCore.BasicIntegration.Controllers
         /// <returns>
         /// Return data here, with a json-compatible result.
         /// </returns>
-        public IActionResult PageData(Core.IDataTablesRequest request)
+        public IActionResult PageData(IDataTablesRequest request)
         {
             // Nothing important here. Just creates some mock data.
             var data = Models.SampleEntity.GetSampleData();
